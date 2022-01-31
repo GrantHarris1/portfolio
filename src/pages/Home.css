@@ -12,4 +12,14 @@ h3{
     font-family: 'Comforter', cursive;
 text-align: center;
 }
+a{
+    color: black;
+}
 
+a:hover{
+    color: orangered ;
+}
+
+a:link {
+    text-decoration: none;
+}

@@ -4,16 +4,17 @@ import { Canvas } from '@react-three/fiber';
 import './Home.css';
 import { OrbitControls } from '@react-three/drei';
 import Sphere from '../components/AnimatedSphere';
+import { Link } from 'react-router-dom';
 
 
 
 
 export default function Home() {
   return (
-    <div classname='home'>
+    <div className='home'>
     
     <h1>Grant Harris</h1>
-    <h3>Click here to Enter</h3>
+    <a href='/about'><h3>Click Here to Enter</h3></a>
       {/* <Canvas className='canvas'>
         <OrbitControls enableZoom={false} />
         <ambientLight intensity={0.5} />
