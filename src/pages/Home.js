@@ -1,16 +1,47 @@
-import React from 'react';
-import {Canvas} from '@react-three/fiber';
-import Box from '../components/Box';
+import React, { Suspense } from 'react';
+import { Canvas } from '@react-three/fiber';
+// import Box from '../components/Box';
 import './Home.css';
 import { OrbitControls } from '@react-three/drei';
+import Sphere from '../components/AnimatedSphere';
+
+
+
 
 export default function Home() {
-  return <Canvas className='canvas'>
-    <OrbitControls  enableZoom={false}/>
-    <ambientLight intensity={0.5} />
-    <directionalLight position={[-2, 5, 2]} intensity={1} />
-    <Box />
-  </Canvas>
+  return (
+    <>
+    
+    <h1>Grant Harris</h1>
+      {/* <Canvas className='canvas'>
+        <OrbitControls enableZoom={false} />
+        <ambientLight intensity={0.5} />
+        <directionalLight position={[-2, 5, 2]} intensity={1} />
+        <Suspense fallback={null}>
+          <Box />
+        </Suspense>
+      </Canvas> */}
+
+      <Canvas className='canvas'>
+        <OrbitControls enableZoom={false} />
+        <ambientLight intensity={0.4} />
+        <directionalLight position={[-2, 5, 2]} intensity={1} />
+        <Suspense fallback={null}>
+          <Sphere />
+        </Suspense>
+      </Canvas>
+
+      {/* <Canvas className='canvas2'>
+        <OrbitControls enableZoom={false} />
+        <ambientLight intensity={0.4} />
+        <directionalLight position={[-2, 5, 2]} intensity={1} />
+        <Suspense fallback={null}>
+          <Sphere />
+        </Suspense>
+      </Canvas> */}
+    </>
+   
+  );
 }
 
 
