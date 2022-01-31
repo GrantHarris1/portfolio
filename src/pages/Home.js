@@ -10,9 +10,10 @@ import Sphere from '../components/AnimatedSphere';
 
 export default function Home() {
   return (
-    <>
+    <div classname='home'>
     
     <h1>Grant Harris</h1>
+    <h3>Click here to Enter</h3>
       {/* <Canvas className='canvas'>
         <OrbitControls enableZoom={false} />
         <ambientLight intensity={0.5} />
@@ -39,9 +40,9 @@ export default function Home() {
           <Sphere />
         </Suspense>
       </Canvas> */}
-    </>
+    </div>
    
   );
-}
+};
 
 

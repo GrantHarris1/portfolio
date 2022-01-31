@@ -3,7 +3,13 @@ canvas {
     
 }
 h1{
+font-family: 'Comforter', cursive;
 text-align: center;
-    
-    }
+font-size: 64px;
+}
+
+h3{
+    font-family: 'Comforter', cursive;
+text-align: center;
+}
 
