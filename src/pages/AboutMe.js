@@ -59,7 +59,7 @@ export default function AboutMe() {
       <h4 className=''>
         Grant has lived in Kentucky most of his life and is passionate about this state.<br />
         His five Children are Chad, Madison, Sylas, Mckenna, and Iley.<br />
-        Grant has been maried to his wife Brittany for 18 years.
+        Grant has been married to his wife Brittany for 18 years.
       </h4>
     </div>
   </div>;
