@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import { Carousel, Navbar, Container } from 'react-bootstrap';
+import { Carousel, Navbar, Container, Nav } from 'react-bootstrap';
 
 export default function Projects() {
     return <div>
@@ -10,10 +10,16 @@ export default function Projects() {
                 <Navbar.Brand href="https://github.com/GrantHarris1"><i className="bi bi-github text-light"></i></Navbar.Brand>
                 <Navbar.Brand href="https://www.linkedin.com/in/1grantharris1/"><i className="bi bi-linkedin text-light"></i></Navbar.Brand>
                 <Navbar.Brand href="mailto: Grant.Harris.Web@gmail.com"><i className="bi bi-envelope text-light"></i></Navbar.Brand>
-                <Navbar.Brand href="/about">About Me</Navbar.Brand>
-                <Navbar.Brand href="/projects">Projects</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="/about">About Me</Nav.Link>
+                        <Nav.Link href="/blog">Blog</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
+        <h1>Projects</h1>
         <Carousel>
             <Carousel.Item>
                 <img
@@ -73,7 +79,7 @@ export default function Projects() {
             </Carousel.Item>
         </Carousel>
         <br />
-        <h4 className='text-light proj text-center'> These projects were made using react for front end development , Laravel for the back end. 
+        <h4 className='text-light proj text-center'> These projects were made using react for front end development , Laravel for the back end.
             I have many more projects on my<a href='https://github.com/GrantHarris1'> Github</a> account. Thank you for checking them out.</h4>
     </div>;
 }
