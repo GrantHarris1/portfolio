@@ -11,7 +11,6 @@ export default function AboutMe() {
         <Navbar.Brand href="mailto: Grant.Harris.Web@gmail.com"><i className="bi bi-envelope text-light"></i></Navbar.Brand>
         <Navbar.Brand href="/about">About Me</Navbar.Brand>
         <Navbar.Brand href="/projects">Projects</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </Container>
     </Navbar>
     <div className='About' >
