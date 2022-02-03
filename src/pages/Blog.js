@@ -18,11 +18,11 @@ export default function Blog() {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
-        <h1 id='blog'>Blog</h1>
+        <h1>Blog</h1>
         <Container >
             <Card style={{ width: '100%' }} className='text-center'>
                 <Card.Body>
-                    <Card.Title><h1 className='About'>January</h1></Card.Title>
+                    <Card.Title><h1 className='About' id='blog'>January</h1></Card.Title>
                     <Card.Subtitle className="mb-2 text-light About">First Month At Tech Job.</Card.Subtitle>
                     <Card.Text>
                         <p className='About'> The first Month has been interesting. Working in Sports Tech is a true dream come true for me. Truly my two passions combined. The relaxed atmosphere is
