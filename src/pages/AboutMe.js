@@ -26,7 +26,7 @@ export default function AboutMe() {
       <h2 className=''>Web Developer:</h2>
       <p>
         HTML | CSS | JavaScript | React | Bootstrap | React Bootstrap | O.O.P.
-        | Agile | Git | Github | Laravel |Wordpress | Social Media
+        | Agile Development | Git | Github | Laravel| Jira | C# | Wordpress | Social Media
       </p>
 
       <h4>
