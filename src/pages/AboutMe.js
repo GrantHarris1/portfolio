@@ -54,7 +54,7 @@ export default function AboutMe() {
         Current: QA / Developer @ BlueFrame Technology <br />
         2008 - 2021 Licensed Electrician <br />
         2006 -2008 Factory Work <br />
-        2003 - 2006 US Army (52D) | Power Generation Technician <br />
+        2003 - 2006 US Army (52D) - Power Generation Technician <br />
       </h4>
       <br />
       <br />

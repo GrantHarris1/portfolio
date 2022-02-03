@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, Container, Card } from 'react-bootstrap';
 import './Blog.css';
 export default function Blog() {
-    return <div className='text-light text-center justify-content center' >
+    return <div className='text-light text-center justify-content center About' >
         <Navbar bg="dark" expand="lg" variant="dark">
             <Container>
                 <Navbar.Brand href="/" className='name' id='name'>Grant Harris</Navbar.Brand>
@@ -22,10 +22,10 @@ export default function Blog() {
         <Container >
             <Card style={{ width: '100%' }} className='text-center'>
                 <Card.Body>
-                    <Card.Title><h1>January</h1></Card.Title>
-                    <Card.Subtitle className="mb-2 text-light">First Month At Tech Job.</Card.Subtitle>
+                    <Card.Title><h1 className='About'>January</h1></Card.Title>
+                    <Card.Subtitle className="mb-2 text-light About">First Month At Tech Job.</Card.Subtitle>
                     <Card.Text>
-                        <p> The first Month has been interesting. Working in Sports Tech is a true dream come true for me. Truly my two passions combined. The relaxed atmosphere is
+                        <p className='About'> The first Month has been interesting. Working in Sports Tech is a true dream come true for me. Truly my two passions combined. The relaxed atmosphere is
                             <br /> something I will have to adjust to.
                             When I asked "what time do I come in?", I was answered with "whenever works best for you."
                             When I asked who My boss was, I was<br /> anwered with "You don't really have one. "Lunch?" I asked. "Whatever works

@@ -79,7 +79,7 @@ export default function Projects() {
             </Carousel.Item>
         </Carousel>
         <br />
-        <h4 className='text-light proj text-center'> These projects were made using react for front end development , Laravel for the back end.
-            I have many more projects on my<a href='https://github.com/GrantHarris1'> Github</a> account. Thank you for checking them out.</h4>
+        <h4 className='text-light proj text-center'> These projects were made using react for front end development. <br /> Laravel was used for the back end.
+            I have many more projects on my<a href='https://github.com/GrantHarris1'> Github</a> account. <br />Thank you for checking them out.</h4>
     </div>;
 }
