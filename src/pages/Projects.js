@@ -18,6 +18,21 @@ export default function Projects() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
+                    src="img/theshop.png"
+                    alt="Third slide"
+                />
+
+                <Carousel.Caption>
+                    <h3>The Shop App</h3>
+                    <p>Made Using Laravel, React, Bootstrap.
+                        Site for Electricians to order parts &
+                        materials. </p><a href='https://the-shop-app-f2eea.web.app/conduit'><i className="bi bi-link-45deg text-light"></i></a>
+
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
                     src="img/fulltodo.png"
                     alt="First slide"
                 />
@@ -56,21 +71,9 @@ export default function Projects() {
                     </a>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src="img/theshop.png"
-                    alt="Third slide"
-                />
-
-                <Carousel.Caption>
-                    <h3>The Shop App</h3>
-                    <p>Made Using Laravel, React, Bootstrap.
-                        Site for Electricians to order parts &
-                        materials. </p><a href='https://the-shop-app-f2eea.web.app/conduit'><i className="bi bi-link-45deg text-light"></i></a>
-
-                </Carousel.Caption>
-            </Carousel.Item>
         </Carousel>
+        <br />
+        <h4 className='text-light proj text-center'> These projects were made using react for front end development , Laravel for the back end. 
+            I have many more projects on my<a href='https://github.com/GrantHarris1'> Github</a> account. Thank you for checking them out.</h4>
     </div>;
 }
