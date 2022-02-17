@@ -30,9 +30,7 @@ export default function Projects() {
 
                 <Carousel.Caption>
                     <h3>The Shop App</h3>
-                    <p>Made Using Laravel, React, Bootstrap.
-                        Site for Electricians to order parts &
-                        materials. </p><a href='https://the-shop-app-f2eea.web.app/conduit'><i className="bi bi-link-45deg text-light"></i></a>
+                    <a href='https://the-shop-app-f2eea.web.app/conduit'><i className="bi bi-link-45deg text-light"></i></a>
 
                 </Carousel.Caption>
             </Carousel.Item>
@@ -44,7 +42,6 @@ export default function Projects() {
                 />
                 <Carousel.Caption>
                     <h3>Todo List App</h3>
-                    <p>Made with React & Bootstrap</p>
                     <a href='https://todo-list-67656.web.app/'><i className="bi bi-link-45deg text-light"></i>
                     </a>
                 </Carousel.Caption>
@@ -58,7 +55,6 @@ export default function Projects() {
 
                 <Carousel.Caption>
                     <h3>Fishing Store Mock</h3>
-                    <p>Using React w/hooks, Bootstrap, using an API</p>
                     <a href='https://react-hooks-store-f6cf4.web.app/'><i className="bi bi-link-45deg text-light"></i>
                     </a>
                 </Carousel.Caption>
@@ -72,10 +68,9 @@ export default function Projects() {
 
                 <Carousel.Caption>
                     <h3>React Expense Report</h3>
-                    <p>Using React w/hooks, CSS</p>
-                    <a href='https://github.com/GrantHarris1/Expense-Report/tree/dev'><i className="bi bi-link-45deg text-light"></i>
-                    </a>
+                    <a href='https://github.com/GrantHarris1/Expense-Report/tree/dev'><i className="bi bi-link-45deg text-light"></i></a>
                 </Carousel.Caption>
+                
             </Carousel.Item>
             <Carousel.Item>
                 <img
@@ -85,9 +80,7 @@ export default function Projects() {
                 />
 
                 <Carousel.Caption>
-                    <h3>Resturant App</h3>
-                    <p>Made Using React, Rendering based on time calling Multiple APIs.</p>
-                    <a href='https://menu-65537.web.app/'><i className="bi bi-link-45deg text-light"></i>
+                    <h3>Resturant App</h3><a href='https://menu-65537.web.app/'><i className="bi bi-link-45deg text-light"></i>
                     </a>
                 </Carousel.Caption>
             </Carousel.Item>
