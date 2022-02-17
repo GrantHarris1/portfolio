@@ -31,14 +31,14 @@ export default function Blog() {
                             When I asked "what time do I come in?", I was answered with "whenever works best for you."
                              "Lunch?" I asked. "Whatever works
                             for you." was the answer. This was pretty exciting for me coming from blue collar work. The tech stack here 
-                            includes C#, which I am not familiar with. Obviously this will be a learning hill for me. I am in a QA role so this includes
+                            includes C#, which I am not familiar with. Obviously this will be a learning hill for me. I am in a Software QA role so this includes
                             lots of software testing. It is going well so far, there is still so much to learn. Mosty everyone has been really cool so far.
                             I'm looking forward to the next month as we are building a new testing program in C#.
 
                         </p>
                     </Card.Text>
                     <br />
-                    <p>This is my current job:</p>
+                    <p>This is the company that I work for:</p>
                     <Card.Link href="https://www.blueframetech.com/">BlueFrame Tech.</Card.Link>
                 </Card.Body>
             </Card>
