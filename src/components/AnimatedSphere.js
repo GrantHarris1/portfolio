@@ -9,7 +9,7 @@ export default function AnimatedSphere() {
       color="#FF3300" 
       attach="material"
       distort = {0.3}
-      speed={1.5}
+      speed={3}
       roughness={0}
       />
   </Sphere>

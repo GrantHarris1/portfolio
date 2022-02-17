@@ -25,13 +25,14 @@ export default function Blog() {
                     <Card.Title><h1 className='About' id='blog'>January</h1></Card.Title>
                     <Card.Subtitle className="mb-2 text-light About">First Month At Tech Job.</Card.Subtitle>
                     <Card.Text>
-                        <p className='About'> The first Month has been interesting. Working in Sports Tech is a true dream come true for me. Truly my two passions combined. The relaxed atmosphere is
-                            <br /> something I will have to adjust to.
+                        <p className='About'> The first Month has been interesting. Working in Sports Tech is a true dream come true for me. Truly my two passions combined. 
+                        The relaxed atmosphere is
+                            something I will have to adjust to.
                             When I asked "what time do I come in?", I was answered with "whenever works best for you."
-                            When I asked who My boss was, I was<br /> anwered with "You don't really have one. "Lunch?" I asked. "Whatever works
-                            for you." was the answer. This was pretty exciting for me coming from blue collar work.<br /> The tech stack here 
-                            includes C#, which I am not familiar with. Obviously this will be a learning hill for me. I am in a QA role so this includes<br />
-                            lots of software testing. It is going well so far, there is still so much to learn. Mosty everyone has been really cool so far. <br />
+                             "Lunch?" I asked. "Whatever works
+                            for you." was the answer. This was pretty exciting for me coming from blue collar work. The tech stack here 
+                            includes C#, which I am not familiar with. Obviously this will be a learning hill for me. I am in a QA role so this includes
+                            lots of software testing. It is going well so far, there is still so much to learn. Mosty everyone has been really cool so far.
                             I'm looking forward to the next month as we are building a new testing program in C#.
 
                         </p>
