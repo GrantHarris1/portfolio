@@ -66,6 +66,20 @@ export default function Projects() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
+                    src="img/expense.png"
+                    alt="Second slide"
+                />
+
+                <Carousel.Caption>
+                    <h3>React Expense Report</h3>
+                    <p>Using React w/hooks, CSS</p>
+                    <a href='https://github.com/GrantHarris1/Expense-Report/tree/dev'><i className="bi bi-link-45deg text-light"></i>
+                    </a>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
                     src="img/fullmenu.png"
                     alt="Third slide"
                 />
