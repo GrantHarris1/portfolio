@@ -30,7 +30,7 @@ export default function Blog() {
                             When I asked "what time do I come in?", I was answered with "whenever works best for you."
                             When I asked who My boss was, I was<br /> anwered with "You don't really have one. "Lunch?" I asked. "Whatever works
                             for you." was the answer. This was pretty exciting for me coming from blue collar work.<br /> The tech stack here 
-                            includes C# for front-end, which I am not familiar with. Obviously this will be a learning hill for me. I am in a QA role so this includes<br />
+                            includes C#, which I am not familiar with. Obviously this will be a learning hill for me. I am in a QA role so this includes<br />
                             lots of software testing. It is going well so far, there is still so much to learn. Mosty everyone has been really cool so far. <br />
                             I'm looking forward to the next month as we are building a new testing program in C#.
 
